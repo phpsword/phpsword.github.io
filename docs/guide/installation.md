@@ -15,7 +15,7 @@ To create a new project, simply replace `myproject` by the name of your project 
 
 ```bash:no-line-numbers
 docker run --rm --pull=always -t -e HOST_PWD="$PWD" \
-    -v "$PWD":/srv/app -v /var/run/docker.sock:/var/run/docker.sock \
+    -v "$PWD":/app -v /var/run/docker.sock:/var/run/docker.sock \
     ghcr.io/phpsword/installer myproject
 ```
 
