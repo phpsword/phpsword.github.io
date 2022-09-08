@@ -1,0 +1,35 @@
+@use '@fortawesome/fontawesome-free/css/fontawesome.min.css';
+@use '@fortawesome/fontawesome-free/css/brands.min.css';
+
+:root {
+    // brand colors
+    --c-brand: #000000;
+    --c-brand-light: #32373c;
+    --c-text: #32373c;
+    --c-text-light: #32373c;
+    --c-text-lighter: #40454b;
+    --c-text-lightest: #656b72;
+
+    // background colors
+    --c-bg: #ffffff;
+    --c-bg-light: #f3f4f5;
+    --c-bg-lighter: #eeeeee;
+    --c-bg-navbar: var(--c-bg);
+    --c-bg-sidebar: var(--c-bg);
+    --c-bg-arrow: #cccccc;
+}
+
+html.dark {
+    // brand colors
+    --c-brand: #ffffff;
+    --c-brand-light: #dfdfdf;
+    --c-text: #ADADAD;
+    --c-text-light: #bdbdbd;
+    --c-text-lighter: #c0c0c0;
+    --c-text-lightest: #e0e0e0;
+
+    // background colors
+    --c-bg: #22262b;
+    --c-bg-light: #282c31;
+    --c-bg-lighter: #2e3338;
+}
