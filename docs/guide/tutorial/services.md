@@ -1,5 +1,6 @@
 ---
 prev: /guide/tutorial/first-steps.md
+next: /guide/tutorial/widgets.md
 ---
 
 # Services
@@ -49,16 +50,16 @@ final class Sidebars extends AbstractWordpressService
 
 Now when you navigate to `/wp-admin/widgets.php` you get your new sidebar:
 
-![WordPress dashboard](/images/wordpress-sidebar.jpg)
+![WordPress sidebar](/images/wordpress-sidebar.jpg)
 
 ## Dependency injection
 
 Classes implementing `WordpressService` can take advantage of Symfony's dependency injection.
 
-::: warning Important note
+::: warning IMPORTANT
 Symfony services are initialized **before** WordPress is loaded, therefore
 you can't use the constructor to call WordPress hooks. Instead, call them in the `initialize()` method, which is called
-while WordPress is loading, in your `functions.php`.
+while WordPress is loading, in your child theme's `functions.php`.
 :::
 
 ## Priority

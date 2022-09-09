@@ -21,7 +21,7 @@ docker run --rm --pull=always -t -e HOST_PWD="$PWD" \
 
 Wait a couple of minutes. Done! Now visit [https://myproject.localhost/](https://myproject.localhost/) to access WordPress installation page.
 
-::: tip Note
+::: tip NOTE
 If port 443 is unavailable, the installation process will automatically assign a free port to your app.
 :::
 

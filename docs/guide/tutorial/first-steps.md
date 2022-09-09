@@ -41,7 +41,7 @@ Then open `style.css` and fill it with this header, modify to your needs:
 */
 ```
 
-::: warning Note
+::: warning IMPORTANT
 Make sure the text domain is the same as the one in `/config/packages/sword.yaml`
 :::
 
@@ -64,6 +64,6 @@ initialize_services();
 
 Finally, go activate it in WordPress admin.
 
-![WordPress dashboard](/images/wordpress-child-theme.jpg)
+![WordPress theme](/images/wordpress-child-theme.jpg)
 
 That's it. Your child theme is Symfony ready.
