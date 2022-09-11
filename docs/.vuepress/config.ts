@@ -48,6 +48,7 @@ export default defineUserConfig({
                 children: [
                     '/guide/index.md',
                     '/guide/installation.md',
+                    '/guide/tooling.md',
                 ],
             },
             {

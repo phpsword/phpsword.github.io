@@ -68,7 +68,7 @@ while WordPress is loading, in your child theme's `functions.php`.
 
 To make a service to load with a high priority, implement `getPriority()` method:
 
-```php:no-line-numbers
+```php
 final class Sidebars extends AbstractWordpressService
 {
     // ...

@@ -1,6 +1,6 @@
 ---
 prev: /guide/index.md
-next: /guide/tutorial/first-steps.md
+next: /guide/tooling.md
 ---
 
 # Installation

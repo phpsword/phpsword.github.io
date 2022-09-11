@@ -26,8 +26,8 @@ Please see [installation](/guide/installation.md) page for instructions on creat
 * **Synchronized auth** between WordPress and Symfony
 * **Compatible** with most WordPress **themes** and **plugins**
 * Possibility to **use both Symfony and WordPress assets** in your theme
-* **Docker** development and production ready environments
-* **WP-CLI** as Symfony command
+* **[Docker](tooling.md#php-image)** development and production ready environments
+* **[WP-CLI](tooling.md#wp-cli)** as Symfony command
 
 ## Project structure
 

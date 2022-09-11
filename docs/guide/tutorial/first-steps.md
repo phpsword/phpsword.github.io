@@ -1,5 +1,5 @@
 ---
-prev: /guide/installation.md
+prev: /guide/tooling.md
 next: /guide/tutorial/services.md
 ---
 
@@ -19,7 +19,7 @@ Enter your desired credentials to access the dashboard.
 
 In your terminal, initialize your child theme:
 
-```bash
+```bash:no-line-numbers
 mkdir wp/content/themes/mychildtheme
 touch wp/content/themes/mychildtheme/style.css
 touch wp/content/themes/mychildtheme/functions.php
