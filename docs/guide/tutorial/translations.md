@@ -1,5 +1,6 @@
 ---
 prev: /guide/tutorial/widgets.md
+next: /guide/tutorial/database-queries.md
 ---
 
 # Translations
