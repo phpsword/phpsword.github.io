@@ -1,5 +1,6 @@
 ---
 prev: /guide/tutorial/services.md
+next: /guide/tutorial/translations.md
 ---
 
 # Widgets

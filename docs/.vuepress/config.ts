@@ -56,6 +56,7 @@ export default defineUserConfig({
                     '/guide/tutorial/first-steps.md',
                     '/guide/tutorial/services.md',
                     '/guide/tutorial/widgets.md',
+                    '/guide/tutorial/translations.md',
                 ],
             },
         ],
