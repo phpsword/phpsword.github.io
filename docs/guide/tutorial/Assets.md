@@ -113,7 +113,7 @@ final class HelloStimulusShortcode extends AbstractWordpressService
 }
 ```
 
-And its template `/templates/wordpress/shortcodes/hello_stimulus.html.twig`:
+And its template `/templates/wordpress/shortcode/hello_stimulus.html.twig`:
 
 ```twig
 <div {{ stimulus_controller('hello') }}></div>
