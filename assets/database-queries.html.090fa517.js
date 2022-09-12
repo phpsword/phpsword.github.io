@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-29abf440","path":"/guide/tutorial/database-queries.html","title":"Database queries","lang":"en-US","frontmatter":{"prev":"/guide/tutorial/translations.md","next":"/guide/tutorial/assets.md"},"excerpt":"","headers":[],"git":{"updatedTime":1662997626000},"filePathRelative":"guide/tutorial/database-queries.md"}');export{e as data};
