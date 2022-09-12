@@ -114,3 +114,31 @@ services:
             WORDPRESS_AUTH_KEY_FILE: /run/secrets/myproject-auth-key
             # ...
 ```
+
+## Makefile
+
+Sword also comes with a handy Makefile with commands to ease working with Docker.
+
+If you're unfamiliar with `make`, it's a task runner just like the Symfony console, but for your shell.
+
+Here are the commands you can use by running:
+
+```bash:no-line-numbers
+make <command>
+```
+
+App commands:
+
+* `cc` Clear Symfony cache
+* `upgrade` Upgrade database after a WordPress upgrade
+* `opcache` Clear opcache
+* `acl` Reset project files and directories read/write permissions to current user if needed
+
+Docker commands:
+
+* `build` Build containers
+* `up-build` Build containers and run them
+* `up` Run containers
+* `stop` Stop containers
+* `down` Remove containers but keep volumes
+* `remove` Remove containers and volumes
