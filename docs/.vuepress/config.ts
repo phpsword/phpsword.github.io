@@ -59,6 +59,7 @@ export default defineUserConfig({
                     '/guide/tutorial/widgets.md',
                     '/guide/tutorial/translations.md',
                     '/guide/tutorial/database-queries.md',
+                    '/guide/tutorial/assets.md',
                 ],
             },
         ],

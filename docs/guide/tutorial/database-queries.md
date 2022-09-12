@@ -1,5 +1,6 @@
 ---
 prev: /guide/tutorial/translations.md
+next: /guide/tutorial/assets.md
 ---
 
 # Database queries
