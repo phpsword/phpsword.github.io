@@ -1,6 +1,6 @@
 ---
 prev: /guide/installation.md
-next: /guide/tutorial/first-steps.md
+next: /guide/production.md
 ---
 
 # Tooling
@@ -93,27 +93,6 @@ For simplicity, you can create an alias in your `~/.bashrc` file:
 alias wp='docker compose exec -u 82:82 php bin/console wp'
 ```
 :::
-
-
-## Production
-
-To build for production, use the `docker-compose.prod.yml` in your CI.
-This will embed your source files in the production PHP image and give you a staging image that you can test
-on your staging server.
-
-Moreover, if you're using Docker Swarm or Kubernetes with secrets, you can simply append `_FILE` to all the
-environment variables. As an example:
-
-```yaml
-services:
-    php:
-        # ...
-        environment:
-            # ...
-            WORDPRESS_DB_PASSWORD_FILE: /run/secrets/myproject-db-password
-            WORDPRESS_AUTH_KEY_FILE: /run/secrets/myproject-auth-key
-            # ...
-```
 
 ## Makefile
 
