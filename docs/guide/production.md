@@ -1,6 +1,6 @@
 ---
 prev: /guide/tooling.md
-next: /guide/tutorial/first-steps.md
+next: /guide/configuration.md
 ---
 
 # Production

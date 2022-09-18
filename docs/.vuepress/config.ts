@@ -50,6 +50,7 @@ export default defineUserConfig({
                     '/guide/installation.md',
                     '/guide/tooling.md',
                     '/guide/production.md',
+                    '/guide/configuration.md',
                 ],
             },
             {

@@ -1,5 +1,5 @@
 ---
-prev: /guide/tooling.md
+prev: /guide/configuration.md
 next: /guide/tutorial/services.md
 ---
 
