@@ -1,5 +1,6 @@
 ---
 prev: /guide/tutorial/database-queries.md
+next: /guide/tutorial/commands.md
 ---
 
 # Assets
