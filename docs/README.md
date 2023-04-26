@@ -3,6 +3,7 @@ home: true
 title: Modern WordPress development with Symfony
 heroImage: /images/sword-logo-sm.png
 heroImageDark: /images/sword-logo-dark-sm.png
+heroHeight: 129
 heroAlt: Sword - Symfony meets WordPress
 heroText: Symfony meets WordPress
 tagline: One step further in modern WordPress development
