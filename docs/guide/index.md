@@ -17,9 +17,9 @@ Please see [installation](/guide/installation.md) page for instructions on creat
 
 ## Features
 
-* PHP >= 8.1 (latest version for new projects)
-* Symfony >= 6.1 (latest version for new projects)
-* WordPress >= 5.6 (latest version for new projects)
+* PHP >= 8.1 (new projects will use the latest version available)
+* Symfony >= 6.1 (new projects will use the latest version available)
+* WordPress >= 5.6 (new projects will use the latest version available)
 * WordPress files hidden from the web server, one `/public/index.php` entrypoint
 * Bcrypt password hashing by default, without plugin
 * **Composer-based** WordPress updates and vendor dependencies
