@@ -1,4 +1,4 @@
-![Sword - Symfony meets WordPress](./docs/.vuepress/public/images/sword-logo-sm.png)
+![Sword - Symfony meets WordPress](./docs/public/images/sword-logo-sm.png)
 
 <br>
 
@@ -8,7 +8,7 @@
 
 Please check the docs at https://getsword.com
 
-Built with [VuePress 2](https://v2.vuepress.vuejs.org/).
+Built with [VitePress](https://vitepress.dev/).
 
 ## Contributing
 
@@ -17,4 +17,3 @@ Feel free to contribute by opening issues or pull requests.
 ## License
 
 [MIT](LICENSE)
-

@@ -1,7 +1,3 @@
----
-prev: /guide/tutorial/assets.md
----
-
 # Commands for WP-CLI
 
 Sword commands are automatically loaded so you don't need to include them in your `functions.php` of your theme.

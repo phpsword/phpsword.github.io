@@ -1,8 +1,3 @@
----
-prev: /guide/tutorial/services.md
-next: /guide/tutorial/translations.md
----
-
 # Widgets
 
 Widgets are a bit different, as they can't be services. They inherit `WP_Widget` class and are instantiated by WordPress.

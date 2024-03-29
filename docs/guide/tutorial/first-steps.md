@@ -1,8 +1,3 @@
----
-prev: /guide/configuration.md
-next: /guide/tutorial/services.md
----
-
 # First steps
 
 ## WordPress installation

@@ -1,8 +1,3 @@
----
-prev: /guide/tutorial/translations.md
-next: /guide/tutorial/assets.md
----
-
 # Database queries
 
 In a classic WordPress theme, you would make calls to the database using `WP_Query`.
