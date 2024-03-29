@@ -1,19 +1,23 @@
 ---
-home: true
+layout: home
 title: Modern WordPress development with Symfony
-heroImage: /images/sword-logo-sm.png
-heroImageDark: /images/sword-logo-dark-sm.png
-heroHeight: 129
-heroAlt: Sword - Symfony meets WordPress
-heroText: Symfony meets WordPress
-tagline: One step further in modern WordPress development
-actions:
-  - text: Get Started
-    link: /guide/installation.md
-    type: primary
-  - text: Introduction
-    link: /guide/
-    type: secondary
+
+hero:
+  name: SWORD
+  image:
+    light: /images/sword-logo-sm.png
+    dark: /images/sword-logo-dark-sm.png
+    alt: Sword
+  text: Symfony meets WordPress
+  tagline: One step further in modern WordPress development
+  height: 129
+  actions:
+    - text: Get Started
+      link: /guide/installation.md
+      theme: brand
+    - text: Introduction
+      link: /guide/
+      theme: alt
 features:
   - title: Next-gen WordPress
     details:
@@ -26,5 +30,4 @@ features:
     details:
         Sword comes with a preconfigured Docker environment that can be used both in development and production.
         WordPress is completely configurable through environment variables.
-footer: MIT Licensed | Copyright © 2022-present William Arin
 ---

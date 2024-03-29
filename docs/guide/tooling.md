@@ -1,8 +1,3 @@
----
-prev: /guide/installation.md
-next: /guide/production.md
----
-
 # Tooling
 
 Sword comes with some tooling to help you manage the development environment.
@@ -73,7 +68,7 @@ docker compose exec -u 82:82 php bin/console wp plugin activate redis-cache
 
 That's it. If you go to the Redis plugin options in Settings➔Redis, you should see that the connection is active.
 
-![Redis connection](../.vuepress/public/images/wordpress-redis.jpg)
+![Redis connection](/images/wordpress-redis.jpg)
 
 ## WP-CLI
 

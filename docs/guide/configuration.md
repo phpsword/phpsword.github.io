@@ -1,8 +1,3 @@
----
-prev: /guide/production.md
-next: /guide/tutorial/first-steps.md
----
-
 # Configuration reference
 
 ## Symfony configuration
@@ -13,14 +8,16 @@ Below is the default configuration:
 
 ```yaml
 sword:
-    wordpress_core_dir: '%kernel.project_dir%/wp/core'
-    wordpress_content_dir: '%kernel.project_dir%/wp/content'
-    child_theme_translation_domain: 'mychildtheme' # must be configured in your app
+    app_namespace: 'App\\'
     child_theme_language_path: '%kernel.project_dir%/translations/%sword.child_theme_translation_domain%'
+    child_theme_translation_domain: 'mychildtheme' # must be configured in your app
+    public_services: []
     table_prefix: 'wp_'
     widgets_namespace: 'App\\Widget\\'
     widgets_path: '%kernel.project_dir%/src/Widget/'
-    public_services: []
+    wordpress_content_dir: '%kernel.project_dir%/wp/content'
+    wordpress_core_dir: '%kernel.project_dir%/wp/core'
+    wordpress_host: '' # Use this if you're behind a reverse-proxy. Example: 'https://domain.com'
 ```
 
 ## Environment variables

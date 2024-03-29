@@ -1,8 +1,3 @@
----
-prev: /guide/tutorial/widgets.md
-next: /guide/tutorial/database-queries.md
----
-
 # Translations
 
 WordPress plugins such as Loco Translate will parse your theme source code to find new strings.

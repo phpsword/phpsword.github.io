@@ -1,8 +1,3 @@
----
-prev: /guide/tooling.md
-next: /guide/configuration.md
----
-
 # Production
 
 ::: warning

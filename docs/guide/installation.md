@@ -1,8 +1,3 @@
----
-prev: /guide/index.md
-next: /guide/tooling.md
----
-
 # Installation
 
 ## Docker one-liner installation (recommended)
@@ -19,6 +14,17 @@ docker run --rm --pull=always -t -e HOST_PWD="$PWD" \
     ghcr.io/phpsword/installer myproject
 ```
 
+::: tip NOTE
+The command line above will install a new project using the [latest compatible version](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/).
+If you want to install a project using a newer PHP version in beta support, use the tag corresponding to the PHP version you want to install:
+```bash:no-line-numbers
+docker run --rm --pull=always -t -e HOST_PWD="$PWD" \
+    -v "$PWD":/app -v /var/run/docker.sock:/var/run/docker.sock \
+    ghcr.io/phpsword/installer:php-8.3 myproject
+```
+:::
+
+
 Wait a couple of minutes. Done! Now visit [https://myproject.localhost/](https://myproject.localhost/) to access WordPress installation page.
 
 ::: tip NOTE
@@ -27,7 +33,6 @@ If port 443 is unavailable, the installation process will automatically assign a
 
 
 You can now check the [tutorial](./tutorial/first-steps.md) to understand the basics.
-
 
 ## Windows / Linux / WSL / macOS manual installation
 

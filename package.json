@@ -1,19 +1,17 @@
 {
   "name": "phpsword.github.io",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sword documentation",
   "main": "index.js",
   "repository": "git@github.com:phpsword/phpsword.github.io.git",
   "author": "William Arin <williamarin.dev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.2.0",
-    "@vuepress/plugin-google-analytics": "2.0.0-beta.61",
-    "@vuepress/plugin-search": "2.0.0-beta.61",
-    "vuepress": "2.0.0-beta.61"
+    "vitepress": "^1.0.1"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   }
 }

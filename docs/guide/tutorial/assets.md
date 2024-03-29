@@ -1,8 +1,3 @@
----
-prev: /guide/tutorial/database-queries.md
-next: /guide/tutorial/commands.md
----
-
 # Assets
 
 This section will show you how to render Symfony assets in WordPress.
@@ -72,14 +67,14 @@ final class Assets extends AbstractWordpressService
 ```
 
 ::: tip NOTE
-The code above is the equivalent of calling twig functions `{{ encore_entry_link_tags('app') }}` and `{{ encore_entry_script_tags('app') }}`.
+The code above is the equivalent of calling twig functions <span v-pre>`{{ encore_entry_link_tags('app') }}` and `{{ encore_entry_script_tags('app') }}`</span>.
 
 [Read more about the frontend in Symfony](https://symfony.com/doc/current/frontend.html)
 :::
 
 At this point, you should notice your page became gray, because the example CSS file `/assets/styles/app.css` sets `body` to gray.
 
-![Gray page](../../.vuepress/public/images/wordpress-gray.jpg)
+![Gray page](/images/wordpress-gray.jpg)
 
 ## Create a shortcode for a Stimulus controller
 
@@ -124,8 +119,8 @@ And its template `/templates/wordpress/shortcode/hello_stimulus.html.twig`:
 
 Final step, edit `Hello world!` post and insert the shortcode in the content.
 
-![Edit Hello world! post](../../.vuepress/public/images/wordpress-hello-edit.jpg)
+![Edit Hello world! post](/images/wordpress-hello-edit.jpg)
 
 And admire the rendered page:
 
-![View Hello world! post](../../.vuepress/public/images/wordpress-hello-render.jpg)
+![View Hello world! post](/images/wordpress-hello-render.jpg)

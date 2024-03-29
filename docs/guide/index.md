@@ -1,7 +1,3 @@
----
-next: /guide/installation.md
----
-
 # What is Sword?
 
 Modern WordPress development has been around for a while with software like [Bedrock](https://roots.io/bedrock/).
@@ -9,16 +5,17 @@ Modern WordPress development has been around for a while with software like [Bed
 Sword takes an alternative approach. Instead of being WordPress with extra features and new file structure,
 it's Symfony embedding WordPress. All WordPress pages and logic, including WP-CLI, run through Symfony.
 
-Welcome in a new era.
+Welcome to a new era.
 
 ## Get started
 
-Please see [installation](/guide/installation.md) page for instructions on creating a new project.
+Check out the [installation](/guide/installation.md) page for instructions on creating a new project.
 
 ## Features
 
-* PHP >= 8.1 (new projects will use the latest version available)
+* PHP >= 8.1 (new projects will use the [latest officially compatible](https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/) version available)
 * Symfony >= 6.1 (new projects will use the latest version available)
+* Symfony 7 support
 * WordPress >= 5.6 (new projects will use the latest version available)
 * WordPress files hidden from the web server, one `/public/index.php` entrypoint
 * Bcrypt password hashing by default, without plugin

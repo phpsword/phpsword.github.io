@@ -1,8 +1,3 @@
----
-prev: /guide/tutorial/first-steps.md
-next: /guide/tutorial/widgets.md
----
-
 # Services
 
 This section will introduce you to the `WordpressService` interface and its helper abstract class `AbstractWordpressService`.
