@@ -1,0 +1,21 @@
+import{_ as s,c as a,o as e,a5 as n}from"./chunks/framework.CoNgQsep.js";const m=JSON.parse('{"title":"What is Sword?","description":"","frontmatter":{},"headers":[],"relativePath":"guide/index.md","filePath":"guide/index.md","lastUpdated":1711689985000}'),t={name:"guide/index.md"},r=n(`<h1 id="what-is-sword" tabindex="-1">What is Sword? <a class="header-anchor" href="#what-is-sword" aria-label="Permalink to &quot;What is Sword?&quot;">​</a></h1><p>Modern WordPress development has been around for a while with software like <a href="https://roots.io/bedrock/" target="_blank" rel="noreferrer">Bedrock</a>.</p><p>Sword takes an alternative approach. Instead of being WordPress with extra features and new file structure, it&#39;s Symfony embedding WordPress. All WordPress pages and logic, including WP-CLI, run through Symfony.</p><p>Welcome to a new era.</p><h2 id="get-started" tabindex="-1">Get started <a class="header-anchor" href="#get-started" aria-label="Permalink to &quot;Get started&quot;">​</a></h2><p>Check out the <a href="/guide/installation.html">installation</a> page for instructions on creating a new project.</p><h2 id="features" tabindex="-1">Features <a class="header-anchor" href="#features" aria-label="Permalink to &quot;Features&quot;">​</a></h2><ul><li>PHP &gt;= 8.1 (new projects will use the <a href="https://make.wordpress.org/core/handbook/references/php-compatibility-and-wordpress-versions/" target="_blank" rel="noreferrer">latest officially compatible</a> version available)</li><li>Symfony &gt;= 6.1 (new projects will use the latest version available)</li><li>Symfony 7 support</li><li>WordPress &gt;= 5.6 (new projects will use the latest version available)</li><li>WordPress files hidden from the web server, one <code>/public/index.php</code> entrypoint</li><li>Bcrypt password hashing by default, without plugin</li><li><strong>Composer-based</strong> WordPress updates and vendor dependencies</li><li><strong>Dependency injection</strong> for WordPress code</li><li><strong>Synchronized auth</strong> between WordPress and Symfony</li><li><strong>Compatible</strong> with most WordPress <strong>themes</strong> and <strong>plugins</strong></li><li>Possibility to <strong>use both Symfony and WordPress assets</strong> in your theme</li><li><strong><a href="./tooling.html#php-image">Docker</a></strong> development and production ready environments</li><li><strong><a href="./tooling.html#wp-cli">WP-CLI</a></strong> as Symfony command</li></ul><h2 id="project-structure" tabindex="-1">Project structure <a class="header-anchor" href="#project-structure" aria-label="Permalink to &quot;Project structure&quot;">​</a></h2><p>The project structure is the same as a standard Symfony project, with a new <code>wp</code> folder containing WordPress core, theme, plugins and uploads.</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes catppuccin-latte dracula vp-code"><code><span class="line"><span>├── assets</span></span>
+<span class="line"><span>├── bin</span></span>
+<span class="line"><span>├── config</span></span>
+<span class="line"><span>├── migrations</span></span>
+<span class="line"><span>├── public</span></span>
+<span class="line"><span>│  └── index.php</span></span>
+<span class="line"><span>├── src</span></span>
+<span class="line"><span>│  ├── Controller</span></span>
+<span class="line"><span>│  ├── Entity</span></span>
+<span class="line"><span>│  └── Repository</span></span>
+<span class="line"><span>├── templates</span></span>
+<span class="line"><span>├── tests</span></span>
+<span class="line"><span>├── translations</span></span>
+<span class="line"><span>├── var</span></span>
+<span class="line"><span>└── wp</span></span>
+<span class="line"><span>   ├── content</span></span>
+<span class="line"><span>   │  ├── plugins</span></span>
+<span class="line"><span>   │  ├── themes</span></span>
+<span class="line"><span>   │  └── uploads</span></span>
+<span class="line"><span>   ├── core</span></span>
+<span class="line"><span>   └── wp-config.php</span></span></code></pre></div>`,11),o=[r];function i(p,l,c,d,h,u){return e(),a("div",null,o)}const f=s(t,[["render",i]]);export{m as __pageData,f as default};
